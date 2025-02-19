@@ -1,0 +1,26 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+	background-color: aquamarine;
+}
+header {
+	background-color: blueviolet;
+	display: flex;
+	flex-direction: row; /* Визначаємо напрямок розміщення елементів у рядок */
+	justify-content: space-around; /* Розподіляємо простір між елементами */
+	align-items: center; /* Вирівнюємо елементи вертикально по центру */
+	height: 50px;
+	padding: 15px 0;
+	color: white;
+}
+.nav {
+	height: 20px;
+
+	border: 2px solid black;
+}
+img {
+	height: 100px;
+}
