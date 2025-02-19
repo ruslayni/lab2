@@ -24,3 +24,11 @@ header {
 img {
 	height: 100px;
 }
+.menu {
+	display: flex;
+}
+.some-text {
+	width: 500px;
+	text-align: center;
+	margin: auto;
+}
